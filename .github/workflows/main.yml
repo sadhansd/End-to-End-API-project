@@ -18,7 +18,7 @@ jobs:
 
     - name: Run tests
       run: |
-        pytest ./src/flask/test/testfunctions.py
+        pytest ./test/testfunctions.py
 
   build-and-publish-images:
     needs: unit-test
