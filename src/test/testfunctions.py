@@ -1,4 +1,4 @@
-from src.flask.app import app
+from flaskapp.app import app
 
 def test_home():
     response = app.test_client().get("/")
